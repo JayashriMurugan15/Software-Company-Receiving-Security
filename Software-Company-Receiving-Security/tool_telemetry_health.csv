@@ -1,0 +1,7 @@
+tool_name,category,expected_freq_mins,last_heartbeat,status,latency_seconds
+CrowdStrike Falcon (EDR),Endpoint,5,2026-09-30 09:56:06,Active,401
+AWS GuardDuty,Cloud Infrastructure,10,2026-09-30 09:54:06,Active,224
+Snyk Security,AppSec / SAST,60,2026-09-30 08:59:06,Active,678
+Palo Alto Firewall,Network,15,2026-09-30 09:50:06,Active,152
+Qualys VMDR,Vulnerability Management,120,2026-09-30 09:29:06,Active,358
+SonarQube Code Quality,DevSecOps,180,2026-09-30 09:50:06,Active,694

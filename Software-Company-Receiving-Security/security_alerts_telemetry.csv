@@ -1,0 +1,301 @@
+alert_id,timestamp,source_tool,tool_category,asset_id,asset_name,asset_tier,criticality_score,severity,cvss_score,control_id,control_name,control_status,remediation_status,raw_risk,effective_business_risk,risk_reduction_achieved
+ALT-1001,2026-09-19 10:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,4.6,CTL-01,Mandatory Hardware MFA,Active,Open,6.9,6.9,0.0
+ALT-1002,2026-09-18 13:57,Palo Alto Firewall,Network,AST-103,Order Management Service,Tier 2 (High),3.8,Low,1.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,4.94,3.46,1.48
+ALT-1003,2026-09-18 14:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.4,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,15.4,10.78,4.62
+ALT-1004,2026-09-06 00:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.2,CTL-01,Mandatory Hardware MFA,Active,Open,9.3,9.3,0.0
+ALT-1005,2026-08-20 06:57,Palo Alto Firewall,Network,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,7.3,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,10.95,10.95,0.0
+ALT-1006,2026-08-16 15:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,8.4,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,12.6,12.6,0.0
+ALT-1007,2026-09-13 06:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Critical,9.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,13.95,13.95,0.0
+ALT-1008,2026-09-21 00:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,2.1,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,4.62,4.62,0.0
+ALT-1009,2026-09-23 04:57,AWS GuardDuty,Cloud Infrastructure,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,6.2,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,31.0,21.7,9.3
+ALT-1010,2026-08-23 06:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,13.76,13.76,0.0
+ALT-1011,2026-09-22 11:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Critical,9.6,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,30.72,30.72,0.0
+ALT-1012,2026-09-21 16:57,Qualys VMDR,Vulnerability Management,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,2.3,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,8.05,8.05,0.0
+ALT-1013,2026-09-19 03:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,2.9,CTL-02,EDR Real-Time Quarantine,Active,Resolved,6.38,4.15,2.23
+ALT-1014,2026-09-21 01:57,Qualys VMDR,Vulnerability Management,AST-107,Analytics Data Lake,Tier 2 (High),3.5,High,8.7,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,30.45,21.31,9.14
+ALT-1015,2026-09-26 04:57,CrowdStrike Falcon (EDR),Endpoint,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.8,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,44.0,40.48,3.52
+ALT-1016,2026-08-17 02:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,7.3,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,23.36,21.49,1.87
+ALT-1017,2026-09-23 06:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,High,8.3,CTL-02,EDR Real-Time Quarantine,Active,Resolved,31.54,20.5,11.04
+ALT-1018,2026-09-28 07:57,Snyk Security,AppSec / SAST,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,4.6,CTL-02,EDR Real-Time Quarantine,Active,Resolved,23.0,14.95,8.05
+ALT-1019,2026-08-24 17:57,Snyk Security,AppSec / SAST,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,5.4,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,27.0,24.84,2.16
+ALT-1020,2026-09-16 07:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,High,7.8,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,27.3,20.48,6.82
+ALT-1021,2026-09-18 02:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,5.2,CTL-02,EDR Real-Time Quarantine,Active,Open,7.8,7.8,0.0
+ALT-1022,2026-09-27 07:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,7.3,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,23.36,21.49,1.87
+ALT-1023,2026-09-15 02:57,SonarQube Code Quality,DevSecOps,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,8.8,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,19.36,14.52,4.84
+ALT-1024,2026-09-02 10:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,5.1,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,25.5,25.5,0.0
+ALT-1025,2026-08-27 07:57,SonarQube Code Quality,DevSecOps,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.4,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,15.4,14.17,1.23
+ALT-1026,2026-09-28 03:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,Low,3.5,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,13.3,12.24,1.06
+ALT-1027,2026-09-28 13:57,CrowdStrike Falcon (EDR),Endpoint,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,8.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,18.92,17.41,1.51
+ALT-1028,2026-09-15 00:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.9,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,15.68,15.68,0.0
+ALT-1029,2026-09-27 06:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,4.9,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,24.5,18.38,6.12
+ALT-1030,2026-09-24 18:57,Qualys VMDR,Vulnerability Management,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Critical,9.5,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,47.5,33.25,14.25
+ALT-1031,2026-09-10 11:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.3,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,9.45,8.69,0.76
+ALT-1032,2026-09-20 02:57,CrowdStrike Falcon (EDR),Endpoint,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,43.5,28.28,15.22
+ALT-1033,2026-09-17 00:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Critical,9.9,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,14.85,14.85,0.0
+ALT-1034,2026-09-16 15:57,CrowdStrike Falcon (EDR),Endpoint,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,1.5,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,7.5,7.5,0.0
+ALT-1035,2026-08-26 04:57,CrowdStrike Falcon (EDR),Endpoint,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,2.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,13.0,11.96,1.04
+ALT-1036,2026-09-23 11:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,3.8,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,19.0,13.3,5.7
+ALT-1037,2026-09-23 03:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,8.5,CTL-02,EDR Real-Time Quarantine,Active,Resolved,12.75,8.29,4.46
+ALT-1038,2026-09-15 00:57,AWS GuardDuty,Cloud Infrastructure,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Critical,9.0,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,28.8,28.8,0.0
+ALT-1039,2026-09-18 23:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.1,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,14.35,10.76,3.59
+ALT-1040,2026-09-07 12:57,AWS GuardDuty,Cloud Infrastructure,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,5.0,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,25.0,25.0,0.0
+ALT-1041,2026-09-18 14:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,27.52,27.52,0.0
+ALT-1042,2026-09-26 20:57,Snyk Security,AppSec / SAST,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,6.1,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,30.5,28.06,2.44
+ALT-1043,2026-09-23 21:57,Qualys VMDR,Vulnerability Management,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Critical,9.3,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,46.5,46.5,0.0
+ALT-1044,2026-09-20 11:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,2.9,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,14.5,10.15,4.35
+ALT-1045,2026-09-18 13:57,Palo Alto Firewall,Network,AST-103,Order Management Service,Tier 2 (High),3.8,High,7.6,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,28.88,28.88,0.0
+ALT-1046,2026-08-19 22:57,Qualys VMDR,Vulnerability Management,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,4.9,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,18.62,17.13,1.49
+ALT-1047,2026-08-19 06:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,7.4,CTL-02,EDR Real-Time Quarantine,Active,Open,23.68,23.68,0.0
+ALT-1048,2026-09-23 02:57,Snyk Security,AppSec / SAST,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,4.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,9.46,6.62,2.84
+ALT-1049,2026-09-23 10:57,AWS GuardDuty,Cloud Infrastructure,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,5.8,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,29.0,29.0,0.0
+ALT-1050,2026-09-03 01:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,7.5,CTL-01,Mandatory Hardware MFA,Active,Open,24.0,24.0,0.0
+ALT-1051,2026-09-21 18:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,1.7,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,5.95,5.95,0.0
+ALT-1052,2026-09-16 15:57,SonarQube Code Quality,DevSecOps,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,3.6,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,7.92,7.92,0.0
+ALT-1053,2026-09-14 12:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,1.7,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,8.5,7.82,0.68
+ALT-1054,2026-09-22 04:57,AWS GuardDuty,Cloud Infrastructure,AST-103,Order Management Service,Tier 2 (High),3.8,Low,2.0,CTL-01,Mandatory Hardware MFA,Active,Open,7.6,7.6,0.0
+ALT-1055,2026-09-29 02:57,AWS GuardDuty,Cloud Infrastructure,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.2,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,13.44,10.08,3.36
+ALT-1056,2026-08-31 08:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,3.5,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,11.2,11.2,0.0
+ALT-1057,2026-08-23 01:57,Snyk Security,AppSec / SAST,AST-103,Order Management Service,Tier 2 (High),3.8,Critical,9.8,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,37.24,34.26,2.98
+ALT-1058,2026-09-19 18:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.9,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,39.5,39.5,0.0
+ALT-1059,2026-09-25 18:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Critical,9.5,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,20.9,15.67,5.23
+ALT-1060,2026-09-04 00:57,AWS GuardDuty,Cloud Infrastructure,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,7.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,38.0,38.0,0.0
+ALT-1061,2026-09-28 08:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,6.9,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,22.08,22.08,0.0
+ALT-1062,2026-09-15 10:57,AWS GuardDuty,Cloud Infrastructure,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.2,CTL-02,EDR Real-Time Quarantine,Active,Resolved,41.0,26.65,14.35
+ALT-1063,2026-09-11 05:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,3.1,CTL-02,EDR Real-Time Quarantine,Active,Open,10.85,10.85,0.0
+ALT-1064,2026-09-25 14:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,6.6,CTL-02,EDR Real-Time Quarantine,Active,Open,33.0,33.0,0.0
+ALT-1065,2026-09-28 21:57,SonarQube Code Quality,DevSecOps,AST-107,Analytics Data Lake,Tier 2 (High),3.5,High,7.2,CTL-01,Mandatory Hardware MFA,Active,Resolved,25.2,13.86,11.34
+ALT-1066,2026-09-26 19:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.9,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,18.88,14.16,4.72
+ALT-1067,2026-09-21 13:57,Snyk Security,AppSec / SAST,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,7.9,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,11.85,11.85,0.0
+ALT-1068,2026-09-12 18:57,Qualys VMDR,Vulnerability Management,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,1.8,CTL-01,Mandatory Hardware MFA,Active,Open,6.3,6.3,0.0
+ALT-1069,2026-08-30 02:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Critical,9.5,CTL-02,EDR Real-Time Quarantine,Active,Open,33.25,33.25,0.0
+ALT-1070,2026-09-24 06:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,3.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,12.6,11.59,1.01
+ALT-1071,2026-09-29 06:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,2.4,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,3.6,3.6,0.0
+ALT-1072,2026-09-16 15:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.5,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,37.5,26.25,11.25
+ALT-1073,2026-09-25 02:57,Snyk Security,AppSec / SAST,AST-103,Order Management Service,Tier 2 (High),3.8,Critical,9.7,CTL-01,Mandatory Hardware MFA,Active,Resolved,36.86,20.27,16.59
+ALT-1074,2026-09-23 23:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,2.5,CTL-01,Mandatory Hardware MFA,Active,Resolved,3.75,2.06,1.69
+ALT-1075,2026-09-11 10:57,AWS GuardDuty,Cloud Infrastructure,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,5.5,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,20.9,19.23,1.67
+ALT-1076,2026-09-20 03:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.5,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,9.75,7.31,2.44
+ALT-1077,2026-09-29 04:57,CrowdStrike Falcon (EDR),Endpoint,AST-103,Order Management Service,Tier 2 (High),3.8,Low,2.2,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,8.36,8.36,0.0
+ALT-1078,2026-08-22 13:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Critical,9.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,33.6,30.91,2.69
+ALT-1079,2026-08-24 13:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,5.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,18.55,18.55,0.0
+ALT-1080,2026-09-25 01:57,CrowdStrike Falcon (EDR),Endpoint,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,7.2,CTL-01,Mandatory Hardware MFA,Active,Resolved,15.84,8.71,7.13
+ALT-1081,2026-09-20 10:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,2.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,5.94,3.86,2.08
+ALT-1082,2026-08-19 02:57,Snyk Security,AppSec / SAST,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,4.7,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,7.05,6.49,0.56
+ALT-1083,2026-09-20 13:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.2,CTL-02,EDR Real-Time Quarantine,Active,Resolved,41.0,26.65,14.35
+ALT-1084,2026-08-28 15:57,SonarQube Code Quality,DevSecOps,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Critical,9.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,33.6,33.6,0.0
+ALT-1085,2026-09-22 11:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,7.1,CTL-01,Mandatory Hardware MFA,Active,Resolved,22.72,12.5,10.22
+ALT-1086,2026-09-14 16:57,Qualys VMDR,Vulnerability Management,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,8.9,CTL-02,EDR Real-Time Quarantine,Active,Resolved,19.58,12.73,6.85
+ALT-1087,2026-09-14 21:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.7,CTL-01,Mandatory Hardware MFA,Active,Resolved,18.24,10.03,8.21
+ALT-1088,2026-09-17 15:57,Palo Alto Firewall,Network,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,4.5,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,17.1,17.1,0.0
+ALT-1089,2026-08-18 15:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,3.2,CTL-01,Mandatory Hardware MFA,Active,Open,10.24,10.24,0.0
+ALT-1090,2026-09-24 00:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.8,CTL-01,Mandatory Hardware MFA,Active,Resolved,18.56,10.21,8.35
+ALT-1091,2026-09-14 10:57,Qualys VMDR,Vulnerability Management,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.8,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,39.0,35.88,3.12
+ALT-1092,2026-09-22 12:57,AWS GuardDuty,Cloud Infrastructure,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,4.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,16.34,16.34,0.0
+ALT-1093,2026-09-22 18:57,AWS GuardDuty,Cloud Infrastructure,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,2.2,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,7.04,5.28,1.76
+ALT-1094,2026-09-03 22:57,Qualys VMDR,Vulnerability Management,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,5.5,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,27.5,27.5,0.0
+ALT-1095,2026-09-20 18:57,Qualys VMDR,Vulnerability Management,AST-103,Order Management Service,Tier 2 (High),3.8,Low,2.7,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,10.26,10.26,0.0
+ALT-1096,2026-09-22 14:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.6,CTL-02,EDR Real-Time Quarantine,Active,Resolved,17.92,11.65,6.27
+ALT-1097,2026-09-05 11:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,4.9,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,24.5,24.5,0.0
+ALT-1098,2026-09-23 16:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,5.5,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,27.5,27.5,0.0
+ALT-1099,2026-09-19 13:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Critical,9.7,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,48.5,33.95,14.55
+ALT-1100,2026-09-14 15:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,27.52,19.26,8.26
+ALT-1101,2026-09-23 12:57,CrowdStrike Falcon (EDR),Endpoint,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Critical,9.1,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,20.02,20.02,0.0
+ALT-1102,2026-09-20 21:57,SonarQube Code Quality,DevSecOps,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.9,CTL-01,Mandatory Hardware MFA,Active,Resolved,17.15,9.43,7.72
+ALT-1103,2026-09-17 13:57,Snyk Security,AppSec / SAST,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.0,CTL-01,Mandatory Hardware MFA,Active,Resolved,25.6,14.08,11.52
+ALT-1104,2026-09-29 18:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,4.7,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,23.5,23.5,0.0
+ALT-1105,2026-09-21 18:57,Snyk Security,AppSec / SAST,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,3.9,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,5.85,4.39,1.46
+ALT-1106,2026-09-21 08:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,43.0,30.1,12.9
+ALT-1107,2026-09-14 23:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,6.0,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,19.2,17.66,1.54
+ALT-1108,2026-08-18 04:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,1.7,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,3.74,3.74,0.0
+ALT-1109,2026-09-26 06:57,SonarQube Code Quality,DevSecOps,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.2,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,41.0,41.0,0.0
+ALT-1110,2026-08-29 00:57,Snyk Security,AppSec / SAST,AST-103,Order Management Service,Tier 2 (High),3.8,Critical,9.7,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,36.86,33.91,2.95
+ALT-1111,2026-09-01 06:57,AWS GuardDuty,Cloud Infrastructure,AST-103,Order Management Service,Tier 2 (High),3.8,High,8.8,CTL-01,Mandatory Hardware MFA,Active,Open,33.44,33.44,0.0
+ALT-1112,2026-09-07 06:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,High,8.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,30.1,27.69,2.41
+ALT-1113,2026-09-19 05:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,3.2,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,16.0,12.0,4.0
+ALT-1114,2026-09-27 12:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,2.0,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,10.0,10.0,0.0
+ALT-1115,2026-09-27 05:57,Palo Alto Firewall,Network,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,4.4,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,6.6,4.95,1.65
+ALT-1116,2026-08-24 04:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,3.2,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,7.04,7.04,0.0
+ALT-1117,2026-09-23 18:57,Palo Alto Firewall,Network,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,3.8,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,5.7,3.99,1.71
+ALT-1118,2026-09-26 20:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.2,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,36.0,36.0,0.0
+ALT-1119,2026-09-30 07:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,1.3,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,6.5,6.5,0.0
+ALT-1120,2026-09-24 01:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,4.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,23.0,21.16,1.84
+ALT-1121,2026-09-22 03:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,3.5,CTL-02,EDR Real-Time Quarantine,Active,Resolved,12.25,7.96,4.29
+ALT-1122,2026-09-25 00:57,CrowdStrike Falcon (EDR),Endpoint,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,3.3,CTL-01,Mandatory Hardware MFA,Active,Resolved,4.95,2.72,2.23
+ALT-1123,2026-08-24 05:57,CrowdStrike Falcon (EDR),Endpoint,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.0,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,40.0,36.8,3.2
+ALT-1124,2026-08-31 12:57,Palo Alto Firewall,Network,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,8.2,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,18.04,18.04,0.0
+ALT-1125,2026-09-26 06:57,CrowdStrike Falcon (EDR),Endpoint,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.6,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,43.0,43.0,0.0
+ALT-1126,2026-08-22 16:57,Snyk Security,AppSec / SAST,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,5.8,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,12.76,12.76,0.0
+ALT-1127,2026-09-16 19:57,Snyk Security,AppSec / SAST,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,1.3,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,4.16,3.83,0.33
+ALT-1128,2026-09-21 21:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,3.1,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,15.5,10.85,4.65
+ALT-1129,2026-09-19 04:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Critical,9.9,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,14.85,14.85,0.0
+ALT-1130,2026-09-17 07:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,5.0,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,25.0,25.0,0.0
+ALT-1131,2026-09-18 15:57,Snyk Security,AppSec / SAST,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,5.5,CTL-01,Mandatory Hardware MFA,Active,Resolved,12.1,6.66,5.44
+ALT-1132,2026-08-21 11:57,Snyk Security,AppSec / SAST,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.1,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,40.5,37.26,3.24
+ALT-1133,2026-09-20 22:57,SonarQube Code Quality,DevSecOps,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,8.8,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,19.36,19.36,0.0
+ALT-1134,2026-09-24 16:57,Snyk Security,AppSec / SAST,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,7.3,CTL-01,Mandatory Hardware MFA,Active,Open,36.5,36.5,0.0
+ALT-1135,2026-08-23 06:57,AWS GuardDuty,Cloud Infrastructure,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,3.1,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,9.92,9.13,0.79
+ALT-1136,2026-08-22 18:57,CrowdStrike Falcon (EDR),Endpoint,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.2,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,41.0,41.0,0.0
+ALT-1137,2026-08-29 16:57,Palo Alto Firewall,Network,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,5.0,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,19.0,17.48,1.52
+ALT-1138,2026-09-26 00:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,5.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,21.66,14.08,7.58
+ALT-1139,2026-09-19 06:57,Snyk Security,AppSec / SAST,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,5.2,CTL-02,EDR Real-Time Quarantine,Active,Resolved,19.76,12.84,6.92
+ALT-1140,2026-09-17 10:57,Palo Alto Firewall,Network,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,1.2,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,4.2,3.15,1.05
+ALT-1141,2026-08-16 21:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,1.5,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,4.8,4.8,0.0
+ALT-1142,2026-09-20 01:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,7.5,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,24.0,16.8,7.2
+ALT-1143,2026-09-07 12:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,15.05,15.05,0.0
+ALT-1144,2026-09-18 12:57,AWS GuardDuty,Cloud Infrastructure,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.5,CTL-01,Mandatory Hardware MFA,Active,Open,37.5,37.5,0.0
+ALT-1145,2026-09-19 12:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.4,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,26.88,26.88,0.0
+ALT-1146,2026-09-27 23:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Critical,9.4,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,47.0,32.9,14.1
+ALT-1147,2026-08-21 13:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.8,CTL-01,Mandatory Hardware MFA,Active,Open,15.36,15.36,0.0
+ALT-1148,2026-09-23 22:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,6.3,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,20.16,18.55,1.61
+ALT-1149,2026-09-24 16:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Critical,9.5,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,30.4,30.4,0.0
+ALT-1150,2026-09-18 23:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,41.5,29.05,12.45
+ALT-1151,2026-09-26 15:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,2.8,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,8.96,6.27,2.69
+ALT-1152,2026-09-24 14:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.4,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,26.88,26.88,0.0
+ALT-1153,2026-09-27 23:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.6,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,38.0,38.0,0.0
+ALT-1154,2026-08-28 06:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.4,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,14.08,14.08,0.0
+ALT-1155,2026-09-24 01:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,1.5,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,2.25,1.69,0.56
+ALT-1156,2026-09-27 11:57,AWS GuardDuty,Cloud Infrastructure,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,43.0,39.56,3.44
+ALT-1157,2026-09-19 18:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.4,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,15.4,14.17,1.23
+ALT-1158,2026-09-15 15:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,2.8,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,8.96,8.96,0.0
+ALT-1159,2026-09-01 18:57,AWS GuardDuty,Cloud Infrastructure,AST-103,Order Management Service,Tier 2 (High),3.8,High,8.5,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,32.3,29.72,2.58
+ALT-1160,2026-09-14 07:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,6.8,CTL-02,EDR Real-Time Quarantine,Active,Open,23.8,23.8,0.0
+ALT-1161,2026-09-25 03:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,13.76,13.76,0.0
+ALT-1162,2026-09-19 08:57,Snyk Security,AppSec / SAST,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,16.96,12.72,4.24
+ALT-1163,2026-09-26 10:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,5.1,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,25.5,17.85,7.65
+ALT-1164,2026-08-15 17:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,4.8,CTL-02,EDR Real-Time Quarantine,Active,Open,18.24,18.24,0.0
+ALT-1165,2026-09-17 05:57,Palo Alto Firewall,Network,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Critical,9.0,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,19.8,19.8,0.0
+ALT-1166,2026-09-14 13:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,3.3,CTL-01,Mandatory Hardware MFA,Active,Resolved,16.5,9.08,7.42
+ALT-1167,2026-09-22 14:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.1,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,40.5,28.35,12.15
+ALT-1168,2026-09-29 20:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.2,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,36.0,33.12,2.88
+ALT-1169,2026-09-14 11:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Critical,9.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,48.0,48.0,0.0
+ALT-1170,2026-09-24 11:57,SonarQube Code Quality,DevSecOps,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,5.0,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,25.0,25.0,0.0
+ALT-1171,2026-09-12 02:57,Palo Alto Firewall,Network,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,4.4,CTL-01,Mandatory Hardware MFA,Active,Open,6.6,6.6,0.0
+ALT-1172,2026-08-31 00:57,CrowdStrike Falcon (EDR),Endpoint,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Critical,9.2,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,32.2,29.62,2.58
+ALT-1173,2026-09-22 21:57,CrowdStrike Falcon (EDR),Endpoint,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,6.5,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,22.75,22.75,0.0
+ALT-1174,2026-09-18 16:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.7,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,27.84,20.88,6.96
+ALT-1175,2026-09-20 05:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,5.2,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,18.2,12.74,5.46
+ALT-1176,2026-09-02 07:57,CrowdStrike Falcon (EDR),Endpoint,AST-103,Order Management Service,Tier 2 (High),3.8,High,7.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,28.88,28.88,0.0
+ALT-1177,2026-09-25 11:57,SonarQube Code Quality,DevSecOps,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,5.3,CTL-01,Mandatory Hardware MFA,Active,Open,18.55,18.55,0.0
+ALT-1178,2026-09-16 07:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,6.0,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,19.2,17.66,1.54
+ALT-1179,2026-09-15 21:57,AWS GuardDuty,Cloud Infrastructure,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,3.8,CTL-02,EDR Real-Time Quarantine,Active,Resolved,19.0,12.35,6.65
+ALT-1180,2026-09-27 08:57,Snyk Security,AppSec / SAST,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.1,CTL-02,EDR Real-Time Quarantine,Active,Resolved,25.92,16.85,9.07
+ALT-1181,2026-09-23 13:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,7.7,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,38.5,28.88,9.62
+ALT-1182,2026-09-16 06:57,Snyk Security,AppSec / SAST,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,7.9,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,11.85,11.85,0.0
+ALT-1183,2026-09-24 10:57,SonarQube Code Quality,DevSecOps,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,2.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,9.1,6.37,2.73
+ALT-1184,2026-09-22 17:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,1.4,CTL-02,EDR Real-Time Quarantine,Active,Resolved,2.1,1.37,0.73
+ALT-1185,2026-09-27 23:57,CrowdStrike Falcon (EDR),Endpoint,AST-103,Order Management Service,Tier 2 (High),3.8,High,7.7,CTL-01,Mandatory Hardware MFA,Active,Resolved,29.26,16.09,13.17
+ALT-1186,2026-09-27 18:57,Palo Alto Firewall,Network,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.2,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,9.3,6.51,2.79
+ALT-1187,2026-09-16 16:57,Palo Alto Firewall,Network,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,2.6,CTL-02,EDR Real-Time Quarantine,Active,Resolved,3.9,2.54,1.36
+ALT-1188,2026-08-27 23:57,CrowdStrike Falcon (EDR),Endpoint,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.5,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,15.75,15.75,0.0
+ALT-1189,2026-09-24 14:57,CrowdStrike Falcon (EDR),Endpoint,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,4.8,CTL-01,Mandatory Hardware MFA,Active,Resolved,18.24,10.03,8.21
+ALT-1190,2026-09-29 06:57,Qualys VMDR,Vulnerability Management,AST-102,Customer Auth API,Tier 1 (Critical),5.0,High,8.2,CTL-01,Mandatory Hardware MFA,Active,Open,41.0,41.0,0.0
+ALT-1191,2026-09-14 12:57,CrowdStrike Falcon (EDR),Endpoint,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Critical,9.8,CTL-01,Mandatory Hardware MFA,Active,Resolved,14.7,8.09,6.61
+ALT-1192,2026-09-27 10:57,Qualys VMDR,Vulnerability Management,AST-103,Order Management Service,Tier 2 (High),3.8,Low,3.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,12.54,9.4,3.14
+ALT-1193,2026-09-19 21:57,CrowdStrike Falcon (EDR),Endpoint,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,2.8,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,14.0,14.0,0.0
+ALT-1194,2026-09-23 04:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,4.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,21.5,16.12,5.38
+ALT-1195,2026-09-09 14:57,CrowdStrike Falcon (EDR),Endpoint,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,7.7,CTL-02,EDR Real-Time Quarantine,Active,Open,38.5,38.5,0.0
+ALT-1196,2026-09-29 06:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,High,7.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,27.74,27.74,0.0
+ALT-1197,2026-09-14 23:57,Palo Alto Firewall,Network,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,5.7,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,12.54,11.54,1.0
+ALT-1198,2026-09-27 20:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,3.1,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,15.5,15.5,0.0
+ALT-1199,2026-09-21 13:57,CrowdStrike Falcon (EDR),Endpoint,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,2.1,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,4.62,4.25,0.37
+ALT-1200,2026-09-26 02:57,SonarQube Code Quality,DevSecOps,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,3.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,7.26,5.08,2.18
+ALT-1201,2026-09-01 04:57,Qualys VMDR,Vulnerability Management,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,4.1,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,9.02,8.3,0.72
+ALT-1202,2026-09-19 16:57,Qualys VMDR,Vulnerability Management,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Critical,9.1,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,20.02,14.01,6.01
+ALT-1203,2026-09-16 14:57,Qualys VMDR,Vulnerability Management,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,8.1,CTL-01,Mandatory Hardware MFA,Active,Resolved,17.82,9.8,8.02
+ALT-1204,2026-09-23 07:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,2.7,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,9.45,9.45,0.0
+ALT-1205,2026-09-23 07:57,Qualys VMDR,Vulnerability Management,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.8,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,18.56,18.56,0.0
+ALT-1206,2026-08-28 13:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Critical,9.1,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,13.65,13.65,0.0
+ALT-1207,2026-09-14 16:57,Palo Alto Firewall,Network,AST-107,Analytics Data Lake,Tier 2 (High),3.5,High,8.4,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,29.4,29.4,0.0
+ALT-1208,2026-08-17 12:57,Palo Alto Firewall,Network,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,5.5,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,20.9,20.9,0.0
+ALT-1209,2026-09-20 10:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,Critical,9.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,36.48,25.54,10.94
+ALT-1210,2026-09-12 05:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,7.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,11.4,11.4,0.0
+ALT-1211,2026-09-12 07:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,5.1,CTL-02,EDR Real-Time Quarantine,Active,Open,7.65,7.65,0.0
+ALT-1212,2026-09-21 15:57,Snyk Security,AppSec / SAST,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,5.9,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,8.85,8.14,0.71
+ALT-1213,2026-09-15 12:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,5.7,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,21.66,19.93,1.73
+ALT-1214,2026-09-24 19:57,AWS GuardDuty,Cloud Infrastructure,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,7.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,38.0,34.96,3.04
+ALT-1215,2026-09-22 15:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,6.8,CTL-01,Mandatory Hardware MFA,Active,Resolved,21.76,11.97,9.79
+ALT-1216,2026-09-04 17:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,7.1,CTL-01,Mandatory Hardware MFA,Active,Open,10.65,10.65,0.0
+ALT-1217,2026-09-19 23:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,8.8,CTL-01,Mandatory Hardware MFA,Active,Resolved,13.2,7.26,5.94
+ALT-1218,2026-09-26 22:57,Palo Alto Firewall,Network,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,10.05,6.53,3.52
+ALT-1219,2026-08-18 02:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,4.5,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,6.75,6.21,0.54
+ALT-1220,2026-09-27 03:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,2.5,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,5.5,5.5,0.0
+ALT-1221,2026-09-10 14:57,AWS GuardDuty,Cloud Infrastructure,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.8,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,15.36,15.36,0.0
+ALT-1222,2026-09-24 20:57,SonarQube Code Quality,DevSecOps,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,6.0,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,13.2,9.24,3.96
+ALT-1223,2026-09-18 13:57,SonarQube Code Quality,DevSecOps,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Critical,9.9,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,21.78,15.25,6.53
+ALT-1224,2026-09-14 15:57,AWS GuardDuty,Cloud Infrastructure,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,5.3,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,26.5,26.5,0.0
+ALT-1225,2026-09-19 06:57,SonarQube Code Quality,DevSecOps,AST-107,Analytics Data Lake,Tier 2 (High),3.5,High,7.5,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,26.25,19.69,6.56
+ALT-1226,2026-09-16 05:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.0,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,40.0,28.0,12.0
+ALT-1227,2026-09-16 18:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,2.3,CTL-02,EDR Real-Time Quarantine,Active,Resolved,11.5,7.48,4.02
+ALT-1228,2026-09-23 14:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,4.9,CTL-01,Mandatory Hardware MFA,Active,Resolved,24.5,13.48,11.02
+ALT-1229,2026-09-27 23:57,CrowdStrike Falcon (EDR),Endpoint,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,1.2,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,6.0,6.0,0.0
+ALT-1230,2026-09-15 20:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,6.8,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,34.0,25.5,8.5
+ALT-1231,2026-09-17 16:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,2.9,CTL-02,EDR Real-Time Quarantine,Active,Resolved,14.5,9.43,5.07
+ALT-1232,2026-09-16 15:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.2,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,9.3,9.3,0.0
+ALT-1233,2026-09-27 11:57,Palo Alto Firewall,Network,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.4,CTL-01,Mandatory Hardware MFA,Active,Open,15.4,15.4,0.0
+ALT-1234,2026-09-15 13:57,Palo Alto Firewall,Network,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,4.0,CTL-01,Mandatory Hardware MFA,Active,Resolved,8.8,4.84,3.96
+ALT-1235,2026-09-25 16:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,7.5,CTL-01,Mandatory Hardware MFA,Active,Resolved,11.25,6.19,5.06
+ALT-1236,2026-09-14 23:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,4.9,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,24.5,24.5,0.0
+ALT-1237,2026-09-24 12:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,7.8,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,11.7,11.7,0.0
+ALT-1238,2026-09-19 10:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Critical,9.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,30.72,28.26,2.46
+ALT-1239,2026-08-16 04:57,Palo Alto Firewall,Network,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,6.2,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,19.84,19.84,0.0
+ALT-1240,2026-09-19 12:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.8,CTL-02,EDR Real-Time Quarantine,Active,Resolved,44.0,28.6,15.4
+ALT-1241,2026-09-29 06:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,1.6,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,5.12,5.12,0.0
+ALT-1242,2026-09-11 08:57,AWS GuardDuty,Cloud Infrastructure,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,2.4,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,8.4,8.4,0.0
+ALT-1243,2026-09-23 20:57,AWS GuardDuty,Cloud Infrastructure,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,2.4,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,12.0,11.04,0.96
+ALT-1244,2026-09-14 18:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,5.4,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,11.88,8.32,3.56
+ALT-1245,2026-09-28 14:57,CrowdStrike Falcon (EDR),Endpoint,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Critical,10.0,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,35.0,26.25,8.75
+ALT-1246,2026-09-23 22:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,2.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,4.05,2.63,1.42
+ALT-1247,2026-09-14 18:57,AWS GuardDuty,Cloud Infrastructure,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.6,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,17.92,13.44,4.48
+ALT-1248,2026-08-20 07:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,2.4,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,3.6,3.31,0.29
+ALT-1249,2026-09-23 06:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,1.1,CTL-02,EDR Real-Time Quarantine,Active,Resolved,5.5,3.58,1.92
+ALT-1250,2026-08-30 11:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,2.8,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,14.0,12.88,1.12
+ALT-1251,2026-09-29 16:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,8.0,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,40.0,28.0,12.0
+ALT-1252,2026-09-23 13:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,4.5,CTL-02,EDR Real-Time Quarantine,Active,Resolved,6.75,4.39,2.36
+ALT-1253,2026-09-22 10:57,Qualys VMDR,Vulnerability Management,AST-103,Order Management Service,Tier 2 (High),3.8,Low,2.1,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,7.98,7.34,0.64
+ALT-1254,2026-09-04 20:57,AWS GuardDuty,Cloud Infrastructure,AST-103,Order Management Service,Tier 2 (High),3.8,High,8.6,CTL-01,Mandatory Hardware MFA,Active,Open,32.68,32.68,0.0
+ALT-1255,2026-09-08 14:57,Palo Alto Firewall,Network,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,8.2,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,18.04,18.04,0.0
+ALT-1256,2026-09-29 06:57,CrowdStrike Falcon (EDR),Endpoint,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,6.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,14.52,10.16,4.36
+ALT-1257,2026-09-25 10:57,SonarQube Code Quality,DevSecOps,AST-103,Order Management Service,Tier 2 (High),3.8,Low,3.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,14.06,9.14,4.92
+ALT-1258,2026-09-08 20:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,5.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,28.0,25.76,2.24
+ALT-1259,2026-09-17 01:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,4.2,CTL-01,Mandatory Hardware MFA,Active,Resolved,21.0,11.55,9.45
+ALT-1260,2026-09-21 18:57,CrowdStrike Falcon (EDR),Endpoint,AST-103,Order Management Service,Tier 2 (High),3.8,Critical,9.6,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,36.48,36.48,0.0
+ALT-1261,2026-08-21 23:57,Palo Alto Firewall,Network,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,5.3,CTL-01,Mandatory Hardware MFA,Active,Open,26.5,26.5,0.0
+ALT-1262,2026-09-19 21:57,AWS GuardDuty,Cloud Infrastructure,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,3.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,4.95,3.71,1.24
+ALT-1263,2026-09-16 18:57,CrowdStrike Falcon (EDR),Endpoint,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,High,7.6,CTL-02,EDR Real-Time Quarantine,Active,Resolved,38.0,24.7,13.3
+ALT-1264,2026-09-18 08:57,Qualys VMDR,Vulnerability Management,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,4.3,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,9.46,6.62,2.84
+ALT-1265,2026-08-28 03:57,Snyk Security,AppSec / SAST,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,3.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,11.52,10.6,0.92
+ALT-1266,2026-09-16 23:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,4.8,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,15.36,10.75,4.61
+ALT-1267,2026-09-16 05:57,Palo Alto Firewall,Network,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,4.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,16.45,10.69,5.76
+ALT-1268,2026-09-08 19:57,AWS GuardDuty,Cloud Infrastructure,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,6.4,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,24.32,24.32,0.0
+ALT-1269,2026-09-19 23:57,SonarQube Code Quality,DevSecOps,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,6.7,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,14.74,11.05,3.69
+ALT-1270,2026-09-19 05:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,8.8,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,13.2,9.9,3.3
+ALT-1271,2026-08-16 02:57,Qualys VMDR,Vulnerability Management,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,2.6,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,13.0,13.0,0.0
+ALT-1272,2026-09-25 12:57,Palo Alto Firewall,Network,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Low,3.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,11.55,8.66,2.89
+ALT-1273,2026-09-14 14:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Low,2.1,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,10.5,9.66,0.84
+ALT-1274,2026-08-16 15:57,Palo Alto Firewall,Network,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,2.6,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Open,5.72,5.72,0.0
+ALT-1275,2026-09-28 14:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,4.7,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,7.05,6.49,0.56
+ALT-1276,2026-09-22 01:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,5.0,CTL-01,Mandatory Hardware MFA,Active,Resolved,7.5,4.12,3.38
+ALT-1277,2026-09-25 21:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Low,2.3,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,3.45,3.45,0.0
+ALT-1278,2026-09-07 23:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,6.8,CTL-02,EDR Real-Time Quarantine,Active,Open,21.76,21.76,0.0
+ALT-1279,2026-09-10 06:57,Snyk Security,AppSec / SAST,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Medium,5.0,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,16.0,16.0,0.0
+ALT-1280,2026-09-14 16:57,Snyk Security,AppSec / SAST,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Low,2.9,CTL-02,EDR Real-Time Quarantine,Active,Open,14.5,14.5,0.0
+ALT-1281,2026-09-24 12:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Low,1.7,CTL-02,EDR Real-Time Quarantine,Active,Resolved,3.74,2.43,1.31
+ALT-1282,2026-09-24 02:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,High,8.4,CTL-01,Mandatory Hardware MFA,Active,Resolved,26.88,14.78,12.1
+ALT-1283,2026-09-20 02:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Medium,5.7,CTL-03,Automated OS Patching Cycle (7-Day SLA),Active,Resolved,19.95,13.96,5.99
+ALT-1284,2026-09-17 14:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Critical,9.3,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,46.5,42.78,3.72
+ALT-1285,2026-08-24 06:57,CrowdStrike Falcon (EDR),Endpoint,AST-103,Order Management Service,Tier 2 (High),3.8,Medium,4.5,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,17.1,15.73,1.37
+ALT-1286,2026-09-16 13:57,SonarQube Code Quality,DevSecOps,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Critical,9.3,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,46.5,34.88,11.62
+ALT-1287,2026-09-24 17:57,AWS GuardDuty,Cloud Infrastructure,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,Medium,5.8,CTL-02,EDR Real-Time Quarantine,Active,Resolved,12.76,8.29,4.47
+ALT-1288,2026-09-22 02:57,Snyk Security,AppSec / SAST,AST-102,Customer Auth API,Tier 1 (Critical),5.0,Medium,5.8,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,29.0,29.0,0.0
+ALT-1289,2026-09-20 06:57,Palo Alto Firewall,Network,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,7.9,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,17.38,17.38,0.0
+ALT-1290,2026-09-14 15:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,4.1,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Resolved,20.5,15.38,5.12
+ALT-1291,2026-09-15 15:57,Qualys VMDR,Vulnerability Management,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Critical,9.6,CTL-01,Mandatory Hardware MFA,Active,Resolved,48.0,26.4,21.6
+ALT-1292,2026-09-13 21:57,AWS GuardDuty,Cloud Infrastructure,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Critical,9.1,CTL-04,Cloud WAF Anti-DDoS & Bot Mitigation,Active,Open,29.12,29.12,0.0
+ALT-1293,2026-09-07 10:57,CrowdStrike Falcon (EDR),Endpoint,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,1.6,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,5.12,5.12,0.0
+ALT-1294,2026-09-07 15:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.3,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Open,9.45,8.69,0.76
+ALT-1295,2026-09-27 04:57,Snyk Security,AppSec / SAST,AST-105,Customer Support Ticketing,Tier 3 (Medium),2.2,High,7.6,CTL-05,CI/CD Pipeline Secrets Scanning,Degraded,Resolved,16.72,15.38,1.34
+ALT-1296,2026-09-20 01:57,Palo Alto Firewall,Network,AST-101,Payment Gateway DB,Tier 1 (Critical),5.0,Medium,4.4,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,22.0,22.0,0.0
+ALT-1297,2026-09-27 20:57,SonarQube Code Quality,DevSecOps,AST-104,Internal HR & Payroll Portal,Tier 2 (High),3.2,Low,2.2,CTL-06,Zero-Trust Microsegmentation,Inactive,Resolved,7.04,7.04,0.0
+ALT-1298,2026-09-27 18:57,Qualys VMDR,Vulnerability Management,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,High,8.8,CTL-01,Mandatory Hardware MFA,Active,Resolved,13.2,7.26,5.94
+ALT-1299,2026-08-30 00:57,SonarQube Code Quality,DevSecOps,AST-106,Staging / QA Kubernetes Cluster,Tier 3 (Low),1.5,Medium,6.3,CTL-02,EDR Real-Time Quarantine,Active,Open,9.45,9.45,0.0
+ALT-1300,2026-09-27 07:57,Snyk Security,AppSec / SAST,AST-107,Analytics Data Lake,Tier 2 (High),3.5,Critical,9.3,CTL-06,Zero-Trust Microsegmentation,Inactive,Open,32.55,32.55,0.0
